@@ -54,3 +54,29 @@ body {
 #relogio > div > #tempo {
     font-size: 20px;
 }
+
+@media screen and (max-width: 515px){
+
+    body {
+        overflow-x: hidden;
+        height: 100vh;
+    }
+
+    h1 {
+        margin-bottom: .3rem;
+    }
+
+    #relogio {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: none;
+        gap: .5rem;
+        max-height: 400px;
+    }
+
+    #relogio div {
+        height: 10rem;
+    }
+}
