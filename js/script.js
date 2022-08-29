@@ -36,4 +36,4 @@ const updateTime = setInterval(() => {
     else segundos.textContent = seg;
 
 
-}, 1000);
+}, 0);
